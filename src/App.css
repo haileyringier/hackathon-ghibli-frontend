@@ -3,8 +3,6 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-
-
 .app{
   font-family: 'Encode Sans Condensed', sans-serif;
   color: gainsboro;
@@ -21,14 +19,12 @@
   list-style-type: none;
   overflow: auto;
   margin: 20px;
-  border-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 /* styles each of movie cards */
 .movie-card{ 
   /* margin: 20px; */
   padding: 10px;
-
 }
 .movie-image{
   max-height: 510px;
@@ -44,6 +40,7 @@
   background-color: gainsboro;
   align-content: center;
   justify-content: space-around;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 p{
   background-color: gainsboro;
@@ -62,11 +59,9 @@ h3{
 h2{
   margin:20px;
 }
-
 h1{
   margin: 20px;
 }
-
 /* title continer*/
 .top{
   display: flex;
@@ -82,7 +77,6 @@ img.logo{
 .species-card.p{
   background-color: gainsboro !important; 
 }
-
 ul{
   padding-inline-start: 15px;
 }

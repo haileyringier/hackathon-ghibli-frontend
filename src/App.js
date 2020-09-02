@@ -2,8 +2,6 @@ import React from 'react';
 import './App.css';
 import MoviesContainer from './container/MoviesContainer.js'
 import SpeciesContianer from './container/SpeciesContainer.js'
-// import { Route, Link, Switch, Redirect } from 'react-router-dom'
-
 
 const speciesUrl = 'http://localhost:3000/species'
 const moviesUrl = 'http://localhost:3000/movies'
